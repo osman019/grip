@@ -1,0 +1,145 @@
+
+body{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background-color: rgb(46, 37, 102);
+}
+.container{
+    width:  65vw;
+    height: 160vh;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    background-color: rgb(0, 0, 0);
+    border-radius: 1vw;
+    gap: 0.1vw;
+    padding-top: 2vw;
+    justify-content: center;
+}
+.container > div {
+    background-color: white;
+    text-align: center;
+   
+}
+
+.item1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: 0.5vw solid;
+    border-radius: 2vw;
+    width: 31vw;
+    height: 39vh;
+ 
+  
+}
+.item1 video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2vw;
+}
+
+.item2{
+    border: 0.5vw solid;
+    border-radius: 2vw;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    height: 85vh;
+    width: 25vw;
+  
+    
+}
+.item2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2vw;
+}
+.item3{
+    border-radius: 2vw;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 31vw;  
+    height: 39vh;
+    margin-bottom: 25vh;
+}
+.item3 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2vw;
+}
+.item4{
+    border: 0.5vw solid;
+    border-radius: 2vw;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin-top: -21vh;
+    width: 58vw;
+    height: 55vh;
+}
+.item4 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2vw;
+}
+.container2{
+    width:  65vw;
+    height: 90vh;
+    display: grid;
+    grid-template-rows: auto auto ;
+    background-color: rgb(0, 0, 0);
+    border-radius: 1vw;
+    gap: 0.1vw;
+    padding-top: 5vw;
+    justify-content: center;
+  
+}
+.container2 > div {
+    background-color: white;
+    text-align: center;
+   
+}
+.item5{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: 0.5vw solid;
+    border-radius: 2vw;
+    width: 31vw;
+    height: 39vh;
+}
+.item5 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1vw;
+}
+.item6{
+    border: 0.5vw solid;
+    border-radius: 2vw;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    height: 80vh;
+    width: 25vw;
+  
+    
+}
+.item6 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1vw;
+}
+.item7{
+    border-radius: 2vw;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 31vw;  
+    height: 39vh;
+    margin-bottom: 25vh;
+}
+.item7 video{
+    width: 100%;
+    height: 100%;
+    border-radius: 2vw;
+    object-fit: cover;
+}
